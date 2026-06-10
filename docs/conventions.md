@@ -55,6 +55,29 @@ Module folders: `NN-kebab-name`, two-digit zero-padded (`01-intro`).
 - Course name capitalization: `Machine Learning Zoomcamp`, `MLOps Zoomcamp`,
   `Data Engineering Zoomcamp`, `LLM Zoomcamp`.
 
+## Section patterns
+
+- Quick Links: a plain table (no emoji in cells) that always includes a
+  Documentation row linking the shared Zoomcamp Logistics docs and the course's
+  own docs page.
+- How to Take the Course: a Live Cohort vs Self-Paced comparison table (rows:
+  Start, Lectures, Homework, Leaderboard, Peer Review, Certificate, Cost,
+  Register) followed by a short self-paced steps list. No mermaid diagrams.
+- Syllabus: one `### [Module N: Title](folder/)` heading per module, each with a
+  bullet list of topics. No wide tables.
+- Certificate: the certificate image (`images/<course>-zoomcamp-certificate.jpg`),
+  the requirements, and a link to the docs certificate/certification page.
+- FAQ: keep it short and link to the full FAQ at
+  `datatalks.club/faq/<course>-zoomcamp.html` rather than inlining a long Q&A.
+- Long add-on sections (e.g. an AI-Shipping-Labs-style block): keep a brief
+  summary in the README and link to the docs page for the details.
+- Sponsors: the heading is `## Sponsors` (not "Sponsors & Supporters"). Show
+  logos only if the course actually has sponsors; otherwise a one-line contact.
+
+## Social links
+
+- Use X, not Twitter: `<a href="https://x.com/DataTalksClub">X</a>`.
+
 ## Tooling
 
 - Python helper scripts use `uv` (see `scripts/generate-thumbnails` for the

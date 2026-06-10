@@ -47,26 +47,39 @@ Banner block first (image → title → tagline → signup button → link row �
 badges), then these `##` sections in this order:
 
 ```
-## Quick Links            — table: materials, playlist, Slack, Telegram, FAQ, platform
+## Quick Links            — table: materials, video, Documentation, platform, Slack, Telegram, FAQ
 ## About the Course       — what you'll learn + duration
 ## Who Should Join        — target audience
 ## Prerequisites
-## How to Take the Course
-   ### Live Cohort
-   ### Self-Paced
-## Syllabus               — module list, each entry links to its folder
-## Projects / Capstone
-## Certificate
+## How to Take the Course — Live Cohort vs Self-Paced comparison table (see below)
+## Syllabus               — one ### heading per module + bullet topics (see below)
+## Projects / Capstone    — or "Final Project" (use the name that fits the course)
+## Certificate            — certificate image + requirements + docs link (see below)
 ## Instructors
 ## Testimonials
 ## Community & Support
    ### Getting Help on Slack
    ### Learning in Public
 ## Sponsors
-## FAQ
-## Contributing
 ## About DataTalks.Club
 ```
+
+Sections that only some courses have (FAQ, Contributing, an AI-Shipping-Labs-style
+add-on) are optional; place them after Community & Support and before About
+DataTalks.Club. Only include a section when there is real content for it — do not
+add an empty Instructors or Testimonials section just for symmetry.
+
+Key conventions for the variable sections:
+
+- Quick Links: plain table, no emoji in cells. Always include a Documentation row
+  linking the shared Zoomcamp Logistics docs and the course's own docs page.
+- How to Take the Course: a Live Cohort vs Self-Paced comparison table (Start,
+  Lectures, Homework, Leaderboard, Peer Review, Certificate, Cost, Register) plus
+  a short self-paced steps list. No mermaid diagrams.
+- Syllabus: one `### [Module N: Title](folder/)` heading per module, each followed
+  by a bullet list of topics. No wide tables.
+- Certificate: the certificate image, the requirements, and a link to the docs
+  certificate/certification page.
 
 Template: [`templates/root-README.md`](templates/root-README.md).
 
